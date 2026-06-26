@@ -1,0 +1,55 @@
+{
+  "pack": {
+    "description": "Datapack that adds the Abandoned Camp from 26.3 into older versions!",
+    "pack_format": 9,
+    "supported_formats": {
+      "min_inclusive": 9,
+      "max_inclusive": 107.1
+    },
+    "min_format": 9,
+    "max_format": [
+      107,
+      1
+    ]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "24w21a-1.21.8",
+        "formats": 45,
+        "min_format": 45,
+        "max_format": 81
+      },
+      {
+        "directory": "25w31a-1.21.10",
+        "formats": [
+          82,
+          0
+        ],
+        "min_format": [
+          82,
+          0
+        ],
+        "max_format": [
+          88,
+          0
+        ]
+      },
+      {
+        "directory": "25w41a-26.2",
+        "formats": [
+          89,
+          0
+        ],
+        "min_format": [
+          89,
+          0
+        ],
+        "max_format": [
+          107,
+          1
+        ]
+      }
+    ]
+  }
+}
